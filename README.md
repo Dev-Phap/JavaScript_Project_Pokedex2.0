@@ -16,7 +16,7 @@ Na [Versão 1.0](https://github.com/Phap1802/JavaScript_Project_Pokedex) - O pro
 
 *Nessa primeira versão fiz em um modelo modal para apresentar os detalhes (Peso/ Altura e Movimentos) e completar o desafio*
 
-Na [Versão 2.0](_____) - Revi as Aulas de Protocolos HTTP e o ensinamentos sobre Requisição fetch(url) de API, para melhor entendimento do conteudo, e comecei a elaborar uma forma de requisitar mais detalhes dos pokemons como a lista de status base.
+Na [Versão 2.0](https://phap1802.github.io/JavaScript_Project_Pokedex2.0/) - Revi as Aulas de Protocolos HTTP e o ensinamentos sobre Requisição fetch(url) de API, para melhor entendimento do conteudo, e comecei a elaborar uma forma de requisitar mais detalhes dos pokemons como a lista de status base.
 
 *Na segunda versão tirei o modal e coloquei efeito de flip nos card, a parte de tras do card traz os detalhes dos pokemons*
 
@@ -25,7 +25,7 @@ Na [Versão 2.0](_____) - Revi as Aulas de Protocolos HTTP e o ensinamentos sobr
 
 - Header com navegação de links profissionais
 - Body e Containers com Animação Dinamica
-- Cards animados com flip e com informações/detalhes do pokemon 
+- Cards animados com flip, aumento de escala e com informações/detalhes do pokemon 
 - Botão LoadMorePokemons (Carrega Mais Pokemons)
 - Rodapé com links Profissionais.
 - UI Responsiva
@@ -75,9 +75,9 @@ Recursos HTML:
 
 <h2 id="demo">🌈 Demonstração</h2>
 
-Você pode acessar ao resultado final da Versão 2.0 [clicando aqui]( ___ ).
+Você pode acessar ao resultado final da Versão 2.0 [clicando aqui](https://phap1802.github.io/JavaScript_Project_Pokedex2.0/).
 
-*Link do github page da versão 1.0[clique aqui](https://phap1802.github.io/JavaScript_Project_Pokedex/)*
+*Link do github page da versão 1.0 [clique aqui](https://phap1802.github.io/JavaScript_Project_Pokedex/)*
 
 *Link do repositório da versão 1.0 [clique aqui ](https://github.com/Phap1802/JavaScript_Project_Pokedex)*
 
@@ -93,9 +93,9 @@ Você pode acessar ao resultado final da Versão 2.0 [clicando aqui]( ___ ).
 
 <h2 id="author">💻 Paulo Henrique</h2>
 <p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/32471505?v=4"style="border-readius: 20px;"/>
+    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/32471505?v=4" border-readius=10 />
     <p>&nbsp&nbsp&nbs Paulo Henrique de Almeida Pinto<br>
-    &nbsp&nbsp&nbsp<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;
+    &nbsp&nbsp&nbsp<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://phap1802.github.io/myCV/">My Curriculum</a>
     </p>
 <br/><br/>
 </p>

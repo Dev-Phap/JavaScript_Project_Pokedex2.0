@@ -12,7 +12,7 @@ const limit = 12;
 let offset = 0;
 
 // Define o número máximo de registros (Pokémons) que podem ser carregados.
-const maxRecords = 151;
+const maxRecords = 1200;
 
 /*
  * Função que converte um objeto de Pokémon em um item de lista no formato HTML.
