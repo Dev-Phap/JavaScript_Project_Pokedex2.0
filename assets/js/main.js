@@ -229,10 +229,3 @@ function flipCardPokemonDetails() {
     });
 }
 
-
-
-// faz recarregamento da sempre que usuario mexe na tela // assim limpando o cache e tirando bugs de cache.
-
-window.addEventListener("resize", function () {
-    location.reload();
-});
