@@ -76,6 +76,7 @@ Recursos HTML:
 <h2 id="demo">🌈 Demonstração</h2>
 
 Você pode acessar ao resultado final da Versão 2.0 [clicando aqui](https://phap1802.github.io/JavaScript_Project_Pokedex2.0/).
+*Melhor funcionamento no Google Chrome mobile ou Desktop*
 
 *Link do github page da versão 1.0 [clique aqui](https://phap1802.github.io/JavaScript_Project_Pokedex/)*
 
