@@ -1,0 +1,88 @@
+
+
+* { 
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+
+    
+}
+
+body {
+    background-color: #f6f8fc ;
+}
+
+
+
+.content {
+    width: 100vw;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    transition: all 0.3s ease;
+}
+
+.content h1 { 
+    
+    margin: 0;
+
+}
+
+
+.content > img {
+
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    
+  }
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.836);
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.932);
+    border-radius: 10px;
+  }
+
+
+
+ li {list-style: none;}
+
+@media screen and (min-width:992px) {
+   
+    .content {
+
+        padding: 1rem;
+        margin: auto;
+        max-width: 992px;
+        max-height: auto;
+        margin: 1rem auto;
+        
+        transition: all 0.3s ease;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 0px 16px 2px, rgba(14, 30, 37, 0.32) 0px 0px 16px 2px; 
+    }
+
+    
+    body {
+        height: 100%;
+        
+        transition: all 0.3s ease, background-image 3s ease;
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(2, 2, 40, 0) 15%, rgba(2, 2, 40, 0) 85%, rgba(0, 0, 0, 0.1) 100%);
+        background-color: rgb(227, 234, 241);
+
+    }
+}
+

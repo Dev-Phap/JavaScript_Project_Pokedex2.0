@@ -1,0 +1,275 @@
+/* As cores estao em RGBA e o canal alpha esta em 0.99 pois foi a forma de que eu encontrei para enviar a cor la para o main.js  pelo "getComputedStyle(card).backgroundColor" assim ele recebe em RGBA a cor - caso o canal alpha estivesse em 1. o metodo para levar a cor so levava os canais RGB. */
+.normal {
+  background-color: rgba(179, 175, 175, 0.99);  /* Cinza claro, neutro */
+}
+.grass {
+  background-color: rgba(73, 208, 176, 0.99); /* Verde vibrante */
+}
+.fire {
+  background-color: rgba(255, 98, 102, 0.99); /* Laranja intenso, complementar ao verde */
+}
+.water {
+  background-color: rgba(95, 177, 243, 0.99); /* Azul claro, análogo ao verde */
+}
+.electric {
+  background-color: rgba(230, 214, 0, 0.99); /* Amarelo, complementar ao roxo (que poderia ser usado para um tipo veneno mais intenso) */
+}
+.ice {
+  background-color: rgba(135, 206, 250, 0.99); /* Azul claro, similar ao água, mas mais claro */
+}
+.ground {
+  background-color: rgba(197, 163, 89, 0.99); /* Marrom escuro, contraste com o verde */
+}
+.flying {
+  background-color: rgba(127, 187, 224, 0.99); /* Roxo, contraste com o verde */
+}
+.poison {
+  background-color: rgba(128, 0, 128, 0.99); /* Roxo escuro, similar ao flying, mas mais intenso */
+}
+.fighting {
+  background-color: rgba(178, 34, 34, 0.99); /* Vermelho escuro, contraste com o verde */
+}
+.psychic {
+  background-color: rgba(219, 1, 219, 0.99); /* Magenta, complementar ao verde */
+}
+.dark {
+  background-color: rgba(65, 65, 65, 0.99); /* Preto, contraste máximo */
+}
+.rock {
+  background-color: rgba(112, 128, 144, 0.99); /* Cinza, neutro e sólido */
+}
+.bug {
+  background-color: rgba(154, 205, 50, 0.99); /* Verde claro, similar ao grama */
+}
+.ghost {
+  background-color: rgba(139, 0, 139, 0.99); /* Roxo, similar ao flying e poison */
+}
+.steel {
+  background-color: rgba(112, 128, 144, 0.99); /* Cinza, similar ao rock, mas com um tom mais azulado */
+}
+.dragon {
+  background-color: rgba(0, 112, 187, 0.99); /* Ciano, contraste com o verde e um toque futurista */
+}
+.fairy {
+  background-color: rgba(255, 182, 193, 0.99); /* Rosa claro, contraste com o verde e um toque delicado */
+}
+
+.pokemons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
+
+.pokemon  {
+    margin: 0.5rem;
+    padding: 1rem 1rem;
+    
+    
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+   
+    transition: transform 0.5s ease;
+    
+    
+
+}
+
+.flip-card {
+  perspective: 1000px;
+     
+  transition: transform 0.5s ease-in-out
+  
+}
+
+.card-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  position: relative;
+  
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-front {
+  z-index: 2;
+}
+
+
+
+ .pokemon .number {
+    color:black;
+    opacity: 0.3;
+    text-align: right;
+    font-size: .625rem;
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+}
+
+.pokemon .name{
+ color: #fff;
+ margin: .25rem  20% .25rem 0;
+ text-transform: capitalize;
+ text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+
+}
+
+ .pokemon .detail img {
+    border-style: none;
+    max-width: 150px;
+    height: 7rem;
+    align-self: end center;
+    object-fit: cover;
+
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+  }
+
+
+.pokemon .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 8rem;
+
+    
+    background-image: url('../images/logoOpaco2.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain; 
+   
+    
+}
+
+.pokemon .detail .types {
+    list-style: none;
+    padding:0;
+    margin: 0;
+    
+
+}
+
+.pokemon .detail .types .type {
+    
+    color:white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .825rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.pagination { 
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    
+    width: 100% ;
+    padding: 1rem;   
+}
+
+.pagination button { 
+    color: white;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem; 
+    padding: .25rem .5rem;
+    margin: auto;
+    
+
+}
+
+.pagination button p {
+  margin: 0;
+}
+
+
+
+.pokemon_header {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.button_details {
+  color:white;
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: .825rem;
+  border-radius: 1rem;
+  border:none;
+  filter: brightness(1);
+  text-align: center;
+  background-color: #ffffff65;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+}
+
+@media screen and (min-width:460px) {
+    .pokemons {
+           grid-template-columns: 1fr 1fr;
+          
+    }
+}
+
+@media screen and (min-width:672px) {
+    .pokemons {
+           grid-template-columns: 1fr 1fr 1fr;
+          
+    }
+}
+
+@media screen and (min-width:992px) {
+    .pokemons {
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+          
+    }
+
+
+    
+
+
+    .pokemon  {
+      margin: 0.5rem;
+      padding: 1rem 1rem;
+      
+      
+      color: white;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+  
+      transition: transform 0.8s ease;
+     }
+
+    
+     
+}
