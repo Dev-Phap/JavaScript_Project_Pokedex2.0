@@ -78,6 +78,7 @@ background-size: contain;
     grid-auto-flow: row;
     
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 
 }
 
