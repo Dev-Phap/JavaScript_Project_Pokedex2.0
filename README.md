@@ -97,7 +97,7 @@ Você pode acessar ao resultado final da Versão 2.0 <a href="https://dev-phap.g
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/32471505?v=4" border-readius=10 />
     <p>&nbsp&nbsp&nbs Paulo Henrique de Almeida Pinto<br>
-    &nbsp&nbsp&nbsp<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://phap1802.github.io/myCV/">My Curriculum</a>
+    &nbsp&nbsp&nbsp<a href="https://github.com/Dev-Phap">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/pauloalmeidapinto/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://dev-phap.github.io/myCV/">My Curriculum</a>
     </p>
 <br/><br/>
 </p>
