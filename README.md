@@ -16,7 +16,7 @@ Na [Versão 1.0](https://github.com/Phap1802/JavaScript_Project_Pokedex) - O pro
 
 *Nessa primeira versão fiz em um modelo modal para apresentar os detalhes (Peso/ Altura e Movimentos) e completar o desafio*
 
-Na [Versão 2.0](https://phap1802.github.io/JavaScript_Project_Pokedex2.0/) - Revi as Aulas de Protocolos HTTP e o ensinamentos sobre Requisição fetch(url) de API, para melhor entendimento do conteudo, e comecei a elaborar uma forma de requisitar mais detalhes dos pokemons como a lista de status base.
+Na [Versão 2.0](https://dev-phap.github.io/JavaScript_Project_Pokedex2.0/) - Revi as Aulas de Protocolos HTTP e o ensinamentos sobre Requisição fetch(url) de API, para melhor entendimento do conteudo, e comecei a elaborar uma forma de requisitar mais detalhes dos pokemons como a lista de status base.
 
 *Na segunda versão tirei o modal e coloquei efeito de flip nos card, a parte de tras do card traz os detalhes dos pokemons*
 
@@ -75,11 +75,11 @@ Recursos HTML:
 
 <h2 id="demo">🌈 Demonstração</h2>
 
-Você pode acessar ao resultado final da Versão 2.0 <a href="https://phap1802.github.io/JavaScript_Project_Pokedex2.0/" target="_blank">clicando aqui</a>.
+Você pode acessar ao resultado final da Versão 2.0 <a href="https://dev-phap.github.io/JavaScript_Project_Pokedex2.0/)" target="_blank">clicando aqui</a>.
 
 *Melhor funcionamento no Google Chrome mobile ou Desktop*
 
-*Link do github page da versão 1.0 <a href="https://phap1802.github.io/JavaScript_Project_Pokedex/" target="_blank">clique aqui</a>*
+*Link do github page da versão 1.0 <a href="https://dev-phap.github.io/JavaScript_Project_Pokedex/" target="_blank">clique aqui</a>*
 
 *Link do repositório da versão 1.0 <a href="https://github.com/Phap1802/JavaScript_Project_Pokedex" target="_blank">clique aqui</a>*
 
